@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C029D921DDB55BA00B4814F /* redBlackTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C029D901DDB55BA00B4814F /* redBlackTree.c */; };
+		0C029D951DDB5C2200B4814F /* redBalckTreeNode.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C029D931DDB5C2200B4814F /* redBalckTreeNode.c */; };
+		0C474EE21DDB4649008E77F9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C474EE11DDB4649008E77F9 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C474EDC1DDB4649008E77F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C029D901DDB55BA00B4814F /* redBlackTree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = redBlackTree.c; sourceTree = "<group>"; };
+		0C029D911DDB55BA00B4814F /* redBlackTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redBlackTree.h; sourceTree = "<group>"; };
+		0C029D931DDB5C2200B4814F /* redBalckTreeNode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = redBalckTreeNode.c; sourceTree = "<group>"; };
+		0C029D941DDB5C2200B4814F /* redBalckTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redBalckTreeNode.h; sourceTree = "<group>"; };
+		0C474EDE1DDB4649008E77F9 /* redBlackTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = redBlackTree; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C474EE11DDB4649008E77F9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C474EDB1DDB4649008E77F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C474ED51DDB4649008E77F9 = {
+			isa = PBXGroup;
+			children = (
+				0C474EE01DDB4649008E77F9 /* redBlackTree */,
+				0C474EDF1DDB4649008E77F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C474EDF1DDB4649008E77F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C474EDE1DDB4649008E77F9 /* redBlackTree */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C474EE01DDB4649008E77F9 /* redBlackTree */ = {
+			isa = PBXGroup;
+			children = (
+				0C474EE11DDB4649008E77F9 /* main.c */,
+				0C029D901DDB55BA00B4814F /* redBlackTree.c */,
+				0C029D911DDB55BA00B4814F /* redBlackTree.h */,
+				0C029D931DDB5C2200B4814F /* redBalckTreeNode.c */,
+				0C029D941DDB5C2200B4814F /* redBalckTreeNode.h */,
+			);
+			path = redBlackTree;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C474EDD1DDB4649008E77F9 /* redBlackTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C474EE51DDB4649008E77F9 /* Build configuration list for PBXNativeTarget "redBlackTree" */;
+			buildPhases = (
+				0C474EDA1DDB4649008E77F9 /* Sources */,
+				0C474EDB1DDB4649008E77F9 /* Frameworks */,
+				0C474EDC1DDB4649008E77F9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redBlackTree;
+			productName = redBlackTree;
+			productReference = 0C474EDE1DDB4649008E77F9 /* redBlackTree */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C474ED61DDB4649008E77F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "李庚达";
+				TargetAttributes = {
+					0C474EDD1DDB4649008E77F9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0C474ED91DDB4649008E77F9 /* Build configuration list for PBXProject "redBlackTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C474ED51DDB4649008E77F9;
+			productRefGroup = 0C474EDF1DDB4649008E77F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C474EDD1DDB4649008E77F9 /* redBlackTree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C474EDA1DDB4649008E77F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C474EE21DDB4649008E77F9 /* main.c in Sources */,
+				0C029D951DDB5C2200B4814F /* redBalckTreeNode.c in Sources */,
+				0C029D921DDB55BA00B4814F /* redBlackTree.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0C474EE31DDB4649008E77F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0C474EE41DDB4649008E77F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0C474EE61DDB4649008E77F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C474EE71DDB4649008E77F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C474ED91DDB4649008E77F9 /* Build configuration list for PBXProject "redBlackTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C474EE31DDB4649008E77F9 /* Debug */,
+				0C474EE41DDB4649008E77F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C474EE51DDB4649008E77F9 /* Build configuration list for PBXNativeTarget "redBlackTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C474EE61DDB4649008E77F9 /* Debug */,
+				0C474EE71DDB4649008E77F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C474ED61DDB4649008E77F9 /* Project object */;
+}
